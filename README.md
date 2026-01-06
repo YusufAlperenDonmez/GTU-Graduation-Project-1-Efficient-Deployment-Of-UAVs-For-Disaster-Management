@@ -6,25 +6,25 @@ This project provides a comprehensive simulation and optimization system for the
 
 **Efficient deployment of UAVs for disaster management: A multi-criterion optimization approach**
 
-* [cite_start]**Journal:** Computer Communications (Elsevier), 2021 [cite: 2, 4]
-* [cite_start]**Authors:** Rooha Masroor, Muhammad Naeem, Waleed Ejaz [cite: 8]
-* [cite_start]**DOI:** 10.1016/j.comcom.2021.07.006 [cite: 41]
+* **Journal:** Computer Communications (Elsevier), 2021
+* **Authors:** Rooha Masroor, Muhammad Naeem, Waleed Ejaz
+* **DOI:** [10.1016/j.comcom.2021.07.006](https://doi.org/10.1016/j.comcom.2021.07.006)
 
 ## Project Goal
 
 The primary objective of this project is to develop a comprehensive decision-support tool that can:
 
-* [cite_start]Determine the optimal locations for UAVs to act as mobile helping units in disaster scenarios (floods, earthquakes, fires)[cite: 21, 48].
-* [cite_start]Maximize user connectivity while minimizing both the number of deployed UAVs and the deployment cost[cite: 22, 23].
+* Determine the optimal locations for UAVs to act as mobile helping units in disaster scenarios (floods, earthquakes, fires).
+* Maximize user connectivity while minimizing both the number of deployed UAVs and the deployment cost.
 * Provide a desktop-based GUI for interactive scenario building, parameter adjustment, and comparative results visualization.
 
 ## Key Features
 
-* [cite_start]**Multi-Objective Optimization:** Balances four competing objectives: minimizing UAV count, maximizing user connections, minimizing user-to-UAV distance, and minimizing cost[cite: 23, 305].
+* **Multi-Objective Optimization:** Balances four competing objectives: minimizing UAV count, maximizing user connections, minimizing user-to-UAV distance, and minimizing cost.
 * **Interactive Simulation Interface:** Allows users to configure grid environments and constraints directly using a Tkinter-based dashboard.
 * **Dual Optimization Methods:** Provides solutions using both:
-    * [cite_start]**Optimal Solution:** Uses Integer Linear Programming (ILP) solved via Branch & Bound (B&B) for mathematically optimal results[cite: 24, 25].
-    * [cite_start]**Proposed Heuristic:** A low-complexity greedy algorithm for rapid decision-making in time-critical scenarios[cite: 26].
+    * **Optimal Solution:** Uses Integer Linear Programming (ILP) solved via Branch & Bound (B&B) for mathematically optimal results.
+    * **Proposed Heuristic:** A low-complexity greedy algorithm for rapid decision-making in time-critical scenarios.
 * **Performance Analysis:** Includes a batch simulation feature to compare algorithms across different connectivity targets ($\beta$).
 * **Visual Analytics:** Generates comparative bar charts for connection counts, installed UAVs, and weighted utility scores.
 
@@ -44,7 +44,7 @@ The optimization model generates the following key outputs:
 
 * The total number of UAVs installed to cover the disaster area.
 * The total number of user connections established.
-* [cite_start]A Weighted Utility Score that combines cost, distance, and coverage into a single metric[cite: 519].
+* A Weighted Utility Score that combines cost, distance, and coverage into a single metric.
 * Runtime analysis comparing the speed of the Optimal vs. Heuristic algorithms.
 * A full visualization of active UAV locations and their connections to specific users.
 
