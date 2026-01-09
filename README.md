@@ -8,8 +8,7 @@ This project provides a comprehensive simulation and optimization system for the
 
 * **Journal:** Computer Communications (Elsevier), 2021
 * **Authors:** Rooha Masroor, Muhammad Naeem, Waleed Ejaz
-* **DOI:** [https://doi.org/10.5281/zenodo.18196659]([https://doi.org/10.1016/j.comcom.2021.07.006](https://doi.org/10.5281/zenodo.18196659))
-
+* **DOI:** [10.1016/j.comcom.2021.07.006](https://doi.org/10.1016/j.comcom.2021.07.006)
 ## Project Goal
 
 The primary objective of this project is to develop a comprehensive decision-support tool that can:
