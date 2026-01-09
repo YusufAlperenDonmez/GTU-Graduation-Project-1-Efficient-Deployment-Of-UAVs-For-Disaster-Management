@@ -1,14 +1,18 @@
 # UAV Deployment for Disaster Management Simulation
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15786174.svg)](https://doi.org/10.5281/zenodo.15786174)
+
 This project provides a comprehensive simulation and optimization system for the efficient deployment of Unmanned Aerial Vehicles (UAVs) for disaster management. The methodology is based on a Multi-Criterion Optimization Model utilizing Integer Linear Programming (ILP) and heuristic algorithms.
 
-## Reference Paper
+## Reference Paper & Data
 
 **Efficient deployment of UAVs for disaster management: A multi-criterion optimization approach**
 
 * **Journal:** Computer Communications (Elsevier), 2021
 * **Authors:** Rooha Masroor, Muhammad Naeem, Waleed Ejaz
 * **DOI:** [10.1016/j.comcom.2021.07.006](https://doi.org/10.1016/j.comcom.2021.07.006)
+* **Project Archive (Zenodo):** [https://doi.org/10.5281/zenodo.15786174](https://doi.org/10.5281/zenodo.15786174)
+
 ## Project Goal
 
 The primary objective of this project is to develop a comprehensive decision-support tool that can:
@@ -33,9 +37,9 @@ The primary objective of this project is to develop a comprehensive decision-sup
 
 1.  **Configure Inputs:** Set the simulation parameters on the left panel, including Grid Size (e.g., 4x4), Number of Victims (N), and UAV Cost/Budget.
 2.  **Define Constraints:** Adjust the Load Balancing constraints ($\gamma_{min}$ and $\gamma_{max}$) and the Maximum Signal Radius.
-3.  **Run Simulation:** Click the "RUN BATCH SIMULATION" button. This executes the solvers across a range of Beta values (0.2 to 0.6).
-4.  **Visualize Map:** Switch to the "Map Visualization" tab to see the spatial deployment of UAVs and user connections. Use the slider to toggle between different Beta scenarios.
-5.  **Analyze Results:** Switch to the "Performance Analysis" tab to view detailed charts comparing the Optimal vs. Proposed Heuristic methods.
+3.  **Run Simulation:** Click the **"RUN BATCH SIMULATION"** button. This executes the solvers across a range of Beta values (0.2 to 0.6).
+4.  **Visualize Map:** Switch to the **"Map Visualization"** tab to see the spatial deployment of UAVs and user connections. Use the slider to toggle between different Beta scenarios.
+5.  **Analyze Results:** Switch to the **"Performance Analysis"** tab to view detailed charts comparing the Optimal vs. Proposed Heuristic methods.
 
 ## Model Outputs
 
@@ -49,11 +53,11 @@ The optimization model generates the following key outputs:
 
 ## Acknowledgements
 
-This project was developed as a Graduation Project for the CSE 495 / 496 courses at Gebze Technical University.
+This project was developed as a Graduation Project for the **CSE 495 / 496** courses at **Gebze Technical University**.
 
 * **Project Supervisor:** Prof. Dr. Didem Gözüpek Kocaman
 * **Project Student:** Yusuf Alperen Dönmez
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
