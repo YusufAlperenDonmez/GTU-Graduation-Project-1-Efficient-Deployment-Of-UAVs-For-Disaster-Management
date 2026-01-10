@@ -12,6 +12,7 @@ This project provides a comprehensive simulation and optimization system for the
 * **Authors:** Rooha Masroor, Muhammad Naeem, Waleed Ejaz
 * **DOI:** [10.1016/j.comcom.2021.07.006](https://doi.org/10.1016/j.comcom.2021.07.006)
 * **Project Archive (Zenodo):** [https://doi.org/10.5281/zenodo.15786174](https://doi.org/10.5281/zenodo.15786174)
+* [![Watch the Trailer](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
 ## Project Goal
 
